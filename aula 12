@@ -1,0 +1,100 @@
+// exercicio 1
+// function minhaFuncao(variavel) {
+//     return variavel * 5
+// }
+// console.log(minhaFuncao(2))
+// console.log(minhaFuncao(10))                            //imprime na tela duas contas de multiplicação uma uma 5x2 e oura 10x5    se tirase os dois coneoles nao iria umprimir na tela o resultado 
+
+
+
+// // exercicio2
+// let textoDoUsuario = prompt("Insira um texto");
+
+// const outraFuncao = function (texto) {
+//     return texto.toLowerCase().includes("cenoura")
+// }
+// const resposta = outraFuncao(textoDoUsuario)
+// console.log(resposta)                                   //todos os textos que tiverem a palavra "cenora" vai dizer true 
+
+
+// exercicio 1
+
+// function eu() {
+//     return console.log("Eu sou Gabriel, tenho 15 anos, moro em Sao Leopoldo e sou estudante.")
+// }
+
+// eu()
+
+// function eu2(nome, idade, cidade, profissao) {
+//     const euzinho = ("Eu sou " + nome + " tenho " + idade + " anos " + " moro em " + cidade + " e sou " + profissao);
+//     return euzinho
+// }
+
+// const meuEu = eu2("Gabriel", 15, "Sao Leopoldo", "estudante");
+// console.log(meuEu)
+
+// exercicio 2
+
+// A)
+// function calculo(a, b){
+//     return soma = (a + b)
+// }
+
+// console.log(calculo(2, 2))
+
+// B)
+
+// function calculo(a, b){
+//     return soma = a >= b
+// }
+
+// let primeiro = prompt("fale um numero")
+// let segundo = prompt("fale outro numero")
+
+// const resultado = calculo(primeiro, segundo)
+// console.log(resultado)
+
+// C)
+
+// function calculo(a) {
+//     return (a % 2 === 0)
+// }
+
+// let numero = Number(prompt("Fale um numero"))
+// const resultado = calculo(numero)
+// console.log(resultado)
+
+// D)
+
+// function frase(a){
+
+//     return (a.length + " " + a.toUpperCase())
+// }
+
+// const resultado = frase((prompt("fale uma frase")))
+// console.log(resultado)
+
+// exercicio 3
+
+// function calculo(a, b) {
+//     return soma = a + b
+// }
+
+// function calculo2(a, b) {
+//     return soma = a - b
+// }
+
+// function calculo3(a, b) {
+//     return soma = a / b
+// }
+
+// function calculo4(a, b) {
+//     return soma = a * b
+// }
+
+// let para = Number (prompt("insira um numero"))
+// let para2 = Number(prompt("insira outro numero"))
+
+// const numeros = (calculo(para, para2) + " " + calculo2(para, para2) + " " + calculo3(para, para2) + " " + calculo4(para, para2))
+
+// console.log(numeros)
